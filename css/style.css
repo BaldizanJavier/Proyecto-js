@@ -1,0 +1,266 @@
+* {
+  /* estilos se aplica a todo */
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.clearfix {
+  float: none;
+  clear: both;
+}
+
+#global {
+  width: 70%;
+  height: 100%;
+  margin: 0 auto;
+  margin-top: 30px;
+  padding: 30px;
+  background: #ffffff;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+#logo {
+  width: 345px;
+  height: 50px;
+  color: #fff;
+  margin-bottom: 20px;
+  line-height: 50px;
+  font-size: 25px;
+  letter-spacing: 4px;
+  text-align: center;
+  padding: 15px;
+  float: left;
+  font-family: Arial, Helvetica, sans-serif;
+  text-transform: uppercase;
+}
+
+#menu {
+  display: block;
+  background: #333;
+  width: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+#menu ul {
+  line-height: 45px;
+  list-style: none;
+}
+
+#menu ul li {
+  display: inline-block;
+  height: 45px;
+  transition: all 300ms;
+}
+
+#menu a {
+  display: block;
+  color: #fff;
+  text-decoration: none;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+#posts {
+  display: block;
+  width: 750px;
+  float: left;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-top: 30px;
+}
+
+h2 {
+  display: block;
+  font-size: 30px;
+  color: #333;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.posts .date {
+  display: block;
+  color: gray;
+  margin: 2px 0 5px 0;
+}
+
+.posts p {
+  display: block;
+  margin-top: 10px;
+  margin-bottom: 15px;
+  line-height: 25px;
+  text-align: justify;
+}
+
+.button-more {
+  display: block;
+  padding: 15px;
+  font-size: 14px;
+  text-align: center;
+  color: #fff;
+  text-decoration: none;
+  margin-top: 5px;
+  width: 70px;
+  margin-bottom: 20px;
+}
+
+aside {
+  font-family: Arial, Helvetica, sans-serif;
+  width: 31%;
+  float: right;
+}
+
+#sidebar h4 {
+  margin-top: 30px;
+  margin-bottom: 20px;
+  text-align: center;
+  line-height: 10px;
+  color: #333;
+  background: url("../img/lines.png") repeat-x;
+}
+
+#sidebar h4 span {
+  background: #fff;
+  padding: 5px;
+}
+
+#sidebar img {
+  width: 100%;
+}
+
+#sidebar p {
+  font-size: 15px;
+  text-align: justify;
+}
+
+form input[type="text"],
+input[type="password"],
+input[type="submit"],
+input[type="number"],
+input[type="email"],
+select {
+  display: block;
+  border-radius: 2px;
+  border: 1px solid #ccc;
+  width: 60%;
+  height: 25px;
+  margin: 10px 0 10px 0;
+  padding: 3px;
+  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.7);
+}
+
+form input[type="submit"] {
+  display: inline-block;
+  width: 70px;
+  height: 25px;
+  margin: 25px 0 0;
+  padding: 10px 15px 25px 15px;
+  background: #a1a1a1;
+  border: 1px solid #a3a3a3;
+  cursor: pointer;
+}
+
+footer {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #fff;
+  width: 72%;
+  height: 45px;
+  background: rgba(0, 0, 0, 0.7);
+  margin: 0 auto;
+  margin-top: 50px;
+  padding-left: 20px;
+  padding-right: 20px;
+  line-height: 45px;
+}
+
+.bx-wrapper,
+.bx-viewport {
+  height: 250px !important;
+}
+
+#selector-theme {
+  position: fixed;
+  top: 40%;
+  background: rgba(51, 51, 51, 0.5);
+  width: 50px;
+  height: 100px;
+}
+
+#to-green,
+#to-red,
+#to-blue {
+  width: 30px;
+  height: 25px;
+  border: 1px solid #fff;
+  margin: 0 auto;
+  display: block;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  cursor: pointer;
+}
+
+#to-green {
+  background: #235f3c;
+}
+
+#to-red {
+  background: #994a2a;
+}
+
+#to-blue {
+  background: #108cc4;
+}
+
+.subir {
+  color: #fff;
+  text-decoration: none;
+  display: block;
+  float: right;
+}
+
+#box {
+  width: 60%;
+  float: left;
+  margin-top: 40px;
+}
+
+#acordeon {
+  margin-top: 20px;
+}
+
+#reloj {
+  font-size: 40px;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #333;
+  border: 2px dashed #333;
+  width: 23%;
+  padding: 30px;
+  margin: 0 auto;
+}
+
+#form_contact {
+  display: block;
+  width: 50%;
+  margin-top: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#form_contact label {
+  display: block;
+  width: 100%;
+  margin-top: 5px;
+}
+
+.form-error {
+    display: inline-block;
+    font-size: 12px;
+    background: #db2929;
+    color: #fff;
+    padding-top: 5px;
+    padding-bottom: 12px;
+    margin: 2px;
+    width: 40%;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
